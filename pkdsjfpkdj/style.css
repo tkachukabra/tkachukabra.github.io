@@ -1,0 +1,116 @@
+.logo {
+    height: 60px;
+}
+
+.container {
+    max-width: 1200px;
+    padding: 0 20px;
+    margin: 0 auto;
+}
+
+.header {
+    background-color: black;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+body {
+    margin: 0;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: white;
+    transition: .5s;
+}
+
+.nav-link:hover {
+    color: yellow;
+}
+
+.header-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav {
+    display: flex;
+    gap: 30px;
+}
+.main-row {
+    display: flex;
+}
+
+.main-img {
+    width: 50%;
+    width: center;
+}
+
+.card {
+    width: 25%;
+}
+
+.card-img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.news-row {
+    display: flex;
+    gap: 30px;
+}
+
+.news {
+    margin-top: 100px;
+}
+
+.Footer {
+    background-color: black;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.Footer-link {
+    background-color: yellow;
+    border-radius:10000px;
+    text-decoration: none;
+    display: block;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Footer-row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+.post {
+    text-align: center;
+}
+
+@media (max-width:700px) {
+    .main-row {
+        flex-direction: column-reverse;
+    }
+
+    .card {
+        width: 100%;
+    }
+    
+    .news-row {
+        flex-wrap: wrap;
+    }
+    
+    .Footer-link {
+        width: 50px;
+        height: 50px;
+    }
+
+
+}
